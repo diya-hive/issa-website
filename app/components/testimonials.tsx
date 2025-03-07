@@ -57,6 +57,22 @@ const logos = [
     img: "/Logo4.png",
     alt: "Logo Four",
   },
+  {
+    img: "/Logo1.png",
+    alt: "Logo One",
+  },
+  {
+    img: "/Logo2.png",
+    alt: "Logo Two",
+  },
+  {
+    img: "/Logo3.png",
+    alt: "Logo Three",
+  },
+  {
+    img: "/Logo4.png",
+    alt: "Logo Four",
+  },
 ];
 
 const Testimonials = () => {

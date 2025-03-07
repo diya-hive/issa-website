@@ -37,14 +37,14 @@ const ProductCarousel = () => {
     <Carousel
       partialVisbile={true}
       responsive={responsive}
+      swipeable={true}
       infinite={true}
       autoPlaySpeed={3000}
       keyBoardControl={true}
       transitionDuration={500}
-      removeArrowOnDeviceType={["tablet", "mobile"]}
       containerClass="carousel-container"
       itemClass="px-2"
-      showDots={true}
+      showDots={false}
       arrows={true}
     >
       {images.map((image, index) => (
@@ -52,7 +52,7 @@ const ProductCarousel = () => {
           <img
             src={image.url}
             alt={image.alt}
-            className="w-96 h-96 rounded-lg"
+            className="w-72 md:w-96 h-72 md:h-96 rounded-lg"
           />
         </div>
       ))}

@@ -1,10 +1,10 @@
 "use client";
 
-import Link from "next/link";
+import CTAOne from "../components/ctaone";
 
 export default function About() {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col w-screen min-h-screen justify-center">
       <section className="w-screen min-h-screen overflow-scroll bg-radial-[at_25%_25%] from-[#1A52A2] to-iblue to-75% z-0">
         <div className="flex flex-row w-full h-full z-10">
           <div className="flex flex-col gap-2 p-2 w-1/2 h-screen items-center justify-center text-white">
@@ -50,7 +50,7 @@ export default function About() {
             <div className="w-1/2 flex flex-row items-center justify-end border-dashed border-r-2 border-black">
               <span className="font-montesserat-bold text-2xl">1975-1989</span>
               <div className="size-8 rounded-full bg-iorange ml-8" />
-              <hr className="px-8 border-black" />
+              <hr className="px-8 border-1 border-black" />
             </div>
             <div className="w-1/2">
               <p className="p-8">
@@ -93,8 +93,11 @@ export default function About() {
           </div>
         </div>
       </section>
-      <section className="w-screen h-1/2">
-        <div className="flex flex-row gap-4 h-full w-full">
+      <section className="flex flex-col w-screen h-2/3 items-center justify-center gap-4 p-16">
+        <h2 className="font-montesserat-bold text-4xl text-iblue">
+          CRAFTING EXCELLENCE AS A TEAM
+        </h2>
+        <div className="flex flex-row gap-4">
           <div className="flex flex-col">
             <img src="/Person1.jpg" className="w-56 object-contain" />
             <p className="text-iblue font-montesserat-bold text-sm">Jane Doe</p>
@@ -118,6 +121,7 @@ export default function About() {
           </div>
         </div>
       </section>
+      <CTAOne />
     </div>
   );
 }

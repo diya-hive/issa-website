@@ -3,36 +3,37 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="h-48 w-screen bg-gray-200 mb-0 font-montesserat text-sm">
-      <div className="flex flex-row h-full items-center text-[#0A1E3C] justify-around">
-        <div className="flex flex-col gap-1 max-w-64 font-montesserat items-start">
-          <img src="/Group 18.png" className="h-20 object-contain" alt="logo" />
-          <p>
-            <b>GSTIN:</b>
-          </p>
-          <p>
-            <b>CIN:</b>
-          </p>
-          <p>
-            <b>Address: </b>Sed lacinia urna arcu, at aliquet magna, finibus
-            nec.
+    <footer className="md:h-48 w-screen bg-gray-200 mb-0 font-montesserat text-sm ">
+      <div className="flex flex-col md:flex-row h-full items-center text-[#0A1E3C] justify-around gap-4">
+        <div className="flex flex-col items-center text-base md:text-sm max-w-64 font-montesserat gap-2">
+          <img
+            src="/Group18.png"
+            className="h-20 object-contain p-2"
+            alt="logo"
+          />
+          <p>GSTIN: 123456789</p>
+          <p>CIN: 123456789</p>
+          <p className="text-center text-sm md:text-xs">
+            Sed lacinia urna arcu, at aliquet magna, finibus nec.
           </p>
         </div>
-        <div className="flex flex-col gap-1 font-sm font-montesserat font-sm">
-          <p className="font-montesserat-bold">Quick Links</p>
+        <div className="flex flex-col items-center font-sm font-montesserat text-base md:text-sm">
+          <p className="font-montesserat-bold text-xl md:text-base">
+            Quick Links
+          </p>
           <Link href="#">About Us</Link>
           <Link href="#">Media</Link>
           <Link href="#">Blog</Link>
           <Link href="#">Contact Us</Link>
         </div>
-        <div className="flex flex-col gap-1 font-sm font-montesserat font-sm justify-evenly">
-          <Link href="#" className="font-montesserat-bold">
+        <div className="flex flex-col items-center font-sm font-montesserat text-base md:text-sm justify-evenly">
+          <p className="font-montesserat-bold text-xl md:text-base">
             Get In Touch
-          </Link>
-          <Link href="#">About Us</Link>
+          </p>
+          <Link href="/about">About Us</Link>
           <Link href="#">Media</Link>
           <Link href="#">Blog</Link>
-          <Link href="#">Contact Us</Link>
+          <Link href="/contact">Contact Us</Link>
         </div>
       </div>
     </footer>
