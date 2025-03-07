@@ -22,19 +22,20 @@ export default function Home() {
         <div className="flex flex-col lg:flex-row items-center md:gap-4 h-2/3 w-full">
           <FeaturesGrid />
           <p className="max-w-screen md:max-w-xl font-montesserat text-base md:text-xl text-iblue p-4 md:p-2 text-center md:text-left">
-            Sit maximus per tellus bibendum morbi ex convallis maximus. Sagittis
-            est ultrices velit diam blandit finibus. Dapibus vivamus etiam
-            pulvinar laoreet aenean eros scelerisque tempus. Sit maximus per
-            tellus bibendum morbi ex convallis maximus. Sagittis est ultrices
-            velit diam blandit finibus. Dapibus vivamus etiam pulvinar laoreet
-            aenean eros scelerisque tempus
+            Issa Wood Industries specializes in manufacturing high-quality,
+            durable, and export-compliant wooden crates, pallets, and custom
+            packaging to meet the needs of various industries. Our team
+            leverages the latest technology and industry best practices to
+            ensure strong and secure packaging. We prioritize quality, timely
+            delivery, and customer satisfaction. <br /> <br /> Your products
+            deserve the best—trust Issa Wood Industries for superior packaging.
           </p>
         </div>
         <div className="flex flex-row w-full h-1/3 gap-6 md:gap-16 items-center justify-center text-iblue p-4 md:p-8">
           <div className="flex flex-col items-center font-montesserat-bold text-3xl md:text-5xl lg:text-7xl">
             <CountUp
               start={0}
-              end={14}
+              end={35}
               duration={3}
               enableScrollSpy={true}
               scrollSpyOnce={true}
@@ -43,13 +44,13 @@ export default function Home() {
               {({ countUpRef }) => <span ref={countUpRef} />}
             </CountUp>
             <p className="text-iblue font-montesserat text-center text-xs md:text-xl">
-              Lorem Ipsum
+              Years Of Experience
             </p>
           </div>
           <div className="flex flex-col items-center font-montesserat-bold text-3xl md:text-5xl lg:text-7xl">
             <CountUp
               start={0}
-              end={125}
+              end={36000}
               duration={3}
               enableScrollSpy={true}
               scrollSpyOnce={true}
@@ -58,13 +59,13 @@ export default function Home() {
               {({ countUpRef }) => <span ref={countUpRef} />}
             </CountUp>
             <p className="text-iblue font-montesserat text-xs md:text-xl">
-              Lorem Ipsum
+              Annual Production Capacity
             </p>
           </div>
           <div className="flex flex-col items-center font-montesserat-bold text-3xl  md:text-5xl lg:text-7xl">
             <CountUp
               start={0}
-              end={36}
+              end={16}
               duration={3}
               enableScrollSpy={true}
               scrollSpyOnce={true}
@@ -73,7 +74,7 @@ export default function Home() {
               {({ countUpRef }) => <span ref={countUpRef} />}
             </CountUp>
             <p className="text-iblue font-montesserat text-xs md:text-xl">
-              Lorem Ipsum
+              Industries Served
             </p>
           </div>
         </div>

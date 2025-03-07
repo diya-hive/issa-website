@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import { Mail, Phone } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -11,10 +12,10 @@ const Footer = () => {
             className="h-20 object-contain p-2"
             alt="logo"
           />
-          <p>GSTIN: 123456789</p>
-          <p>CIN: 123456789</p>
+          <p>GSTIN: 29AAKFI6108B1ZJ</p>
           <p className="text-center text-sm md:text-xs">
-            Sed lacinia urna arcu, at aliquet magna, finibus nec.
+            Sy No. 519/3, 519/4, Plot No. 8(P) 1-A, KIADB Industrial Area,
+            Jigani, Anekal taluk, Bengaluru, Karnataka - 560105
           </p>
         </div>
         <div className="flex flex-col items-center font-sm font-montesserat text-base md:text-sm">
@@ -30,10 +31,18 @@ const Footer = () => {
           <p className="font-montesserat-bold text-xl md:text-base">
             Get In Touch
           </p>
-          <Link href="/about">About Us</Link>
-          <Link href="#">Media</Link>
-          <Link href="#">Blog</Link>
-          <Link href="/contact">Contact Us</Link>
+          <div className="flex items-center gap-2">
+            <Phone size={14} />
+            <span>+91 9620588480</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <Phone size={14} />
+            <span>+91 9845033970</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <Mail size={14} />
+            <span>info@issawoodindustries.in</span>
+          </div>
         </div>
       </div>
     </footer>

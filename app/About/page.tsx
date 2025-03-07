@@ -1,124 +1,41 @@
 "use client";
 
 import CTAOne from "../components/ctaone";
+import Timeline from "../components/timeline";
 
 export default function About() {
   return (
-    <div className="flex flex-col w-screen min-h-screen justify-center">
-      <section className="w-screen min-h-screen overflow-scroll bg-radial-[at_25%_25%] from-[#1A52A2] to-iblue to-75% z-0">
-        <div className="flex flex-row w-full h-full z-10">
-          <div className="flex flex-col gap-2 p-2 w-1/2 h-screen items-center justify-center text-white">
-            <h1 className="font-montesserat-bold text-5xl">OUR VISION</h1>
-            <p className="max-w-lg text-lg font-montesserat">
-              Metus vivamus nostra; risus penatibus consequat quisque hendrerit
-              cras. Cras accumsan suscipit fringilla pharetra proin natoque
-              aptent sed neque. Finibus in odio mollis ridiculus montes litora
-              litora netus. Quisque nibh et cursus, velit non urna. <br />{" "}
-              <br />
-              Metus vivamus nostra; risus penatibus consequat quisque hendrerit
-              cras. Cras accumsan suscipit fringilla pharetra proin natoque
-              aptent sed neque. Finibus in odio mollis ridiculus montes litora
-              litora netus. Quisque nibh et cursus, velit non urna.
+    <div className="flex flex-col">
+      <section className="w-screen bg-radial-[at_25%_25%] from-[#1A52A2] to-iblue to-75% z-0">
+        <div className="flex flex-col md:flex-row z-10">
+          <div className="flex flex-col gap-8 p-8 md:p-12 lg:p-20 w-screen md:w-[60%] h-screen items-center md:items-start justify-center text-white">
+            <h1 className="font-montesserat-bold text-3xl lg:text-5xl">
+              OUR VISION
+            </h1>
+            <p className="max-w-xl text-base lg:text-lg font-montesserat text-center md:text-left">
+              To be the most trusted and innovative provider of high-quality,
+              sustainable packaging solutions, delivering excellence through
+              precision, reliability, and customer-focused service. <br />
+              <br /> At Issa Wood Industries, we envision a future where
+              packaging not only protects products but also preserves the planet
+              - through cutting-edge technology, responsible sourcing, and a
+              commitment to global standards.
             </p>
           </div>
-          <div className="flex w-1/2 h-screen">
-            <img src="/AboutHero.png" className="pl-20 object-contain" />
+          <div className="flex w-screen md:w-[40%] h-32 md:h-screen">
+            <img
+              src="/AboutHero.png"
+              className="object-cover md:object-contain"
+            />
           </div>
         </div>
       </section>
       <section>
-        <div className="flex flex-col w-screen min-h-screen justify-center items-center p-12 font-montesserat">
-          <h2 className="font-montesserat-bold text-4xl text-iblue">
+        <div className="flex flex-col w-screen justify-center items-center font-montesserat">
+          <h2 className="font-montesserat-bold text-3xl md:text-5xl text-iblue p-6 md:p-12 text-center">
             OUR JOURNEY
           </h2>
-          <div className="flex flex-row justify-center">
-            <div className="w-1/2 border-dashed border-black border-r-2">
-              <p className="p-8">
-                Nullam laoreet tellus ac tortor finibus mollis. Sed convallis
-                feugiat dignissim. In vitae nunc faucibus, hendrerit augue ut,
-                auctor augue. Sed non neque pellentesque, semper mi eget,
-                pulvinar leo.
-              </p>
-            </div>
-            <div className="w-1/2 flex flex-row items-center">
-              <hr className="px-8 border-black" />
-              <div className="size-8 rounded-full bg-iorange mr-8" />
-              <span className="font-montesserat-bold text-2xl">1975-1989</span>
-            </div>
-          </div>
-          <div className="flex flex-row justify-center">
-            <div className="w-1/2 flex flex-row items-center justify-end border-dashed border-r-2 border-black">
-              <span className="font-montesserat-bold text-2xl">1975-1989</span>
-              <div className="size-8 rounded-full bg-iorange ml-8" />
-              <hr className="px-8 border-1 border-black" />
-            </div>
-            <div className="w-1/2">
-              <p className="p-8">
-                Nullam laoreet tellus ac tortor finibus mollis. Sed convallis
-                feugiat dignissim. In vitae nunc faucibus, hendrerit augue ut,
-                auctor augue. Sed non neque pellentesque, semper mi eget,
-                pulvinar leo.
-              </p>
-            </div>
-          </div>
-          <div className="flex flex-row justify-center">
-            <div className="w-1/2 border-dashed border-black border-r-2">
-              <p className="p-8">
-                Nullam laoreet tellus ac tortor finibus mollis. Sed convallis
-                feugiat dignissim. In vitae nunc faucibus, hendrerit augue ut,
-                auctor augue. Sed non neque pellentesque, semper mi eget,
-                pulvinar leo.
-              </p>
-            </div>
-            <div className="w-1/2 flex flex-row items-center">
-              <hr className="px-8 border-black" />
-              <div className="size-8 rounded-full bg-iorange mr-8" />
-              <span className="font-montesserat-bold text-2xl">1975-1989</span>
-            </div>
-          </div>
-          <div className="flex flex-row justify-center">
-            <div className="w-1/2 flex flex-row items-center justify-end border-dashed border-r-2 border-black">
-              <span className="font-montesserat-bold text-2xl">1975-1989</span>
-              <div className="size-8 rounded-full bg-iorange ml-8" />
-              <hr className="px-8 border-black" />
-            </div>
-            <div className="w-1/2">
-              <p className="p-8">
-                Nullam laoreet tellus ac tortor finibus mollis. Sed convallis
-                feugiat dignissim. In vitae nunc faucibus, hendrerit augue ut,
-                auctor augue. Sed non neque pellentesque, semper mi eget,
-                pulvinar leo.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="flex flex-col w-screen h-2/3 items-center justify-center gap-4 p-16">
-        <h2 className="font-montesserat-bold text-4xl text-iblue">
-          CRAFTING EXCELLENCE AS A TEAM
-        </h2>
-        <div className="flex flex-row gap-4">
-          <div className="flex flex-col">
-            <img src="/Person1.jpg" className="w-56 object-contain" />
-            <p className="text-iblue font-montesserat-bold text-sm">Jane Doe</p>
-            <p className="text-iblue font-montesserat text-sm">
-              Marketing Head
-            </p>
-          </div>
-          <div className="flex flex-col">
-            <img src="/Person2.jpg" className="w-56 object-contain" />
-            <p className="text-iblue font-montesserat-bold text-sm">Jane Doe</p>
-            <p className="text-iblue font-montesserat text-sm">
-              Marketing Head
-            </p>
-          </div>
-          <div className="flex flex-col">
-            <img src="/Person3.jpg" className="w-56 object-contain" />
-            <p className="text-iblue font-montesserat-bold text-sm">Jane Doe</p>
-            <p className="text-iblue font-montesserat text-sm">
-              Marketing Head
-            </p>
-          </div>
+          <Timeline />
         </div>
       </section>
       <CTAOne />
