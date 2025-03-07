@@ -10,10 +10,10 @@ export default function Home() {
     <div className="flex flex-col">
       <section className="flex w-screen h-screen bg-[url('/LandingHero.png')] bg-cover">
         <div className="flex flex-col w-full h-full items-start mt-24 ml-6 md:mt-24 md:ml-16 gap-4">
-          <h1 className="max-w-xl lg:max-w-3xl text-xl md:text-3xl lg:text-5xl font-bold font-montesserat-bold text-iblue z-10">
+          <h1 className="max-w-xl md:max-w-xl lg:max-w-2xl text-2xl md:text-3xl lg:text-5xl font-bold font-montesserat-bold text-iblue z-10">
             Craftsmanship You Can Trust, Excellence You Can See
           </h1>
-          <p className="font-montesserat text-iblue text-sm md:text-2xl max-w-lg lg:max-w-xl z-10">
+          <p className="font-montesserat text-iblue text-base md:text-xl lg:text-2xl max md:max-w-xl z-10">
             Issa Wood Industries - 35 Years of Unmatched Experience & Precision.
           </p>
         </div>
@@ -78,13 +78,13 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="w-screen min-h-screen bg-iblue flex flex-col">
+      <section className="w-screen bg-iblue flex flex-col">
         <p className="font-montesserat-bold text-white text-4xl p-12">
           OUR PRODUCTS
         </p>
         <ProductCarousel />
       </section>
-      <section className="w-screen min-h-screen flex flex-col bg-white bg-[url('/BgIssa.jpg')] bg-contain bg-no-repeat bg-right">
+      <section className="w-screen flex flex-col bg-white bg-[url('/BgIssa.jpg')] bg-contain bg-no-repeat bg-right">
         <p className="font-montesserat-bold text-4xl text-iblue p-12">
           WHAT OUR CLIENTS SAY
         </p>

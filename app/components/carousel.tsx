@@ -1,9 +1,6 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import { ChevronRight } from "lucide-react";
-
-import { Button } from "@/components/ui/button";
 
 const responsive = {
   desktop: {
@@ -34,29 +31,29 @@ const images = [
 
 const ProductCarousel = () => {
   return (
-    <Carousel
-      partialVisbile={true}
-      responsive={responsive}
-      swipeable={true}
-      infinite={true}
-      autoPlaySpeed={3000}
-      keyBoardControl={true}
-      transitionDuration={500}
-      containerClass="carousel-container"
-      itemClass="px-2"
-      showDots={false}
-      arrows={true}
-    >
-      {images.map((image, index) => (
-        <div key={index}>
-          <img
-            src={image.url}
-            alt={image.alt}
-            className="w-72 md:w-96 h-72 md:h-96 rounded-lg"
-          />
-        </div>
-      ))}
-    </Carousel>
+    <div className="px-4 md:px-12 pb-4">
+      <Carousel
+        partialVisible={true}
+        responsive={responsive}
+        swipeable={true}
+        infinite={true}
+        autoPlaySpeed={3000}
+        keyBoardControl={true}
+        transitionDuration={500}
+        showDots={false}
+        arrows={true}
+      >
+        {images.map((image, index) => (
+          <div key={index} className="px-2 md:px-4">
+            <img
+              src={image.url}
+              alt={image.alt}
+              className="w-96 h-96 rounded-lg"
+            />
+          </div>
+        ))}
+      </Carousel>
+    </div>
   );
 };
 
