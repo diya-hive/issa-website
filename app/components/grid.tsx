@@ -26,7 +26,6 @@ export default function FeaturesGrid() {
                 {feature.label}
               </p>
             </div>
-            {/*  */}
           </div>
         ))}
       </div>
