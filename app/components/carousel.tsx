@@ -49,11 +49,11 @@ const ProductCarousel = () => {
         arrows={true}
       >
         {images.map((image, index) => (
-          <div key={index} className="px-2 md:px-4">
+          <div key={index}>
             <img
               src={image.url}
               alt={image.alt}
-              className="w-96 h-96 rounded-lg"
+              className="px-2 w-2xl h-96 rounded-2xl"
             />
           </div>
         ))}

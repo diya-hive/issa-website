@@ -6,9 +6,9 @@ import Timeline from "../components/timeline";
 export default function About() {
   return (
     <div className="flex flex-col">
-      <section className="w-screen bg-radial-[at_25%_25%] from-[#1A52A2] to-iblue to-75% z-0">
+      <section className="bg-radial-[at_25%_25%] from-[#1A52A2] to-iblue to-75% z-0">
         <div className="flex flex-col md:flex-row z-10">
-          <div className="flex flex-col gap-8 p-8 md:p-12 lg:p-20 w-screen md:w-[60%] h-screen items-center md:items-start justify-center text-white">
+          <div className="flex flex-col gap-8 p-4 md:p-12 lg:p-20 w-screen md:w-[60%] h-screen items-center md:items-start md:justify-center text-white">
             <h1 className="font-montesserat-bold text-3xl lg:text-5xl">
               OUR VISION
             </h1>
@@ -22,11 +22,8 @@ export default function About() {
               commitment to global standards.
             </p>
           </div>
-          <div className="flex w-screen md:w-[40%] h-32 md:h-screen">
-            <img
-              src="/AboutHero.png"
-              className="object-cover md:object-contain"
-            />
+          <div className="flex w-screen md:w-[40%] md:h-screen">
+            <img src="/AboutHero.png" />
           </div>
         </div>
       </section>

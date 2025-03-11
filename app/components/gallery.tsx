@@ -95,10 +95,10 @@ function Gallery() {
 
   return (
     <div>
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-4 p-16">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
         {images.map((image, index) => (
           <div key={index} className="relative overflow-hidden">
-            <div className="relative h-64 w-full">
+            <div className="relative h-24 md:h-64 w-full">
               <Image
                 src={image.path}
                 alt={image.label}
@@ -110,7 +110,7 @@ function Gallery() {
                 }}
               />
             </div>
-            <div className="w-full py-2 text-sm font-montesserat bg-white border-2 text-iblue text-center ">
+            <div className="w-full py-2 text-xs font-montesserat bg-white border-2 text-iblue text-center ">
               {image.label}
             </div>
           </div>

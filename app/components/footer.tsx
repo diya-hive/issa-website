@@ -22,10 +22,10 @@ const Footer = () => {
           <p className="font-montesserat-bold text-xl md:text-base">
             Quick Links
           </p>
-          <Link href="#">About Us</Link>
-          <Link href="#">Media</Link>
-          <Link href="#">Blog</Link>
-          <Link href="#">Contact Us</Link>
+          <Link href="/about">About Us</Link>
+          <Link href="/gallery">Media</Link>
+          <Link href="/blog">Blog</Link>
+          <Link href="/contact">Contact Us</Link>
         </div>
         <div className="flex flex-col items-center font-sm font-montesserat text-base md:text-sm justify-evenly">
           <p className="font-montesserat-bold text-xl md:text-base">

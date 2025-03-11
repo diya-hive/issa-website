@@ -11,12 +11,12 @@ import {
 } from "lucide-react";
 export default function FeaturesGrid() {
   return (
-    <section className="max-w-screen md:max-w-3xl flex items-center justify-center bg-transparent p-6 lg:p-16">
-      <div className="grid grid-cols-2 gap-4 md:grid-cols-3">
+    <section className="w-full flex items-center justify-center bg-transparent p-8">
+      <div className="w-full grid grid-cols-2 gap-4 md:grid-cols-3">
         {features.map((feature, index) => (
           <div
             key={index}
-            className="w-40 flex flex-col gap-2 items-center justify-center bg-transparent p-2 md:p-6 border border-amber-600 rounded-xl shadow-md hover:shadow-2xl"
+            className="flex flex-col gap-2 items-center justify-center bg-transparent p-2 md:p-6 border border-amber-600 rounded-xl shadow-md hover:shadow-2xl"
           >
             <div className="flex h-1/2 items-center justify-center">
               {feature.image}

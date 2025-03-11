@@ -19,6 +19,10 @@
   src: url("/fonts/Montserrat-Bold.ttf");
 }
 
+@utility container {
+  max-width: 1400px;
+}
+
 @theme {
   --font-montesserat: Montserrat, "sans-serif";
   --font-montesserat-bold: Montserrat-Bold, "sans-serif";
