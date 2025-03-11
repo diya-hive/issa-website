@@ -1,26 +1,56 @@
 import Link from "next/link";
 import React from "react";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Menu } from "lucide-react";
 
 const Header = () => {
   return (
-    <header className="sticky h-14 w-screen bg-gray-200 mt-0 font-montesserat-bold text-xs md:text-sm">
-      <div className="flex h-full items-center text-[#0A1E3C]">
+    <header className="sticky top-0 h-14 w-full bg-gray-200 shadow-md font-montesserat-bold text-xs md:text-sm z-50">
+      <div className="flex h-full items-center justify-between px-4 md:px-12 text-[#0A1E3C]">
         <a href="/">
           <img
             src="/Group18.png"
-            className="hidden md:block h-12 object-contain pl-12"
+            className="h-10 md:h-12 object-contain"
             alt="logo"
           />
         </a>
-        <div className="flex flex-row w-full items-center justify-evenly md:justify-end gap-2 md:gap-8 md:pr-32">
+
+        <nav className="hidden md:flex items-center gap-6">
           <Link href="/about">About Us</Link>
-          <Link href="#">Media</Link>
-          <Link href="#">Blog</Link>
+          <Link href="/gallery">Media</Link>
+          <Link href="/blog">Blog</Link>
           <Link href="/contact">
             <button className="bg-amber-600 p-2 rounded text-white text-xs">
               Contact Us
             </button>
           </Link>
+        </nav>
+
+        <div className="md:hidden">
+          <Sheet>
+            <SheetTrigger>
+              <Menu className="w-6 h-6" />
+            </SheetTrigger>
+            <SheetContent side="right" className="p-6">
+              <nav className="flex flex-col gap-4 text-sm font-montesserat items-center">
+                <a href="/">
+                  <img
+                    src="/Group18.png"
+                    className="h-14 object-contain bg-center"
+                    alt="logo"
+                  />
+                </a>
+                <Link href="/about">About Us</Link>
+                <Link href="/gallery">Media</Link>
+                <Link href="/blog">Blog</Link>
+                <Link href="/contact">
+                  <button className="bg-amber-600 p-2 rounded text-white text-sm w-64">
+                    Contact Us
+                  </button>
+                </Link>
+              </nav>
+            </SheetContent>
+          </Sheet>
         </div>
       </div>
     </header>

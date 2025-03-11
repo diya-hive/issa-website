@@ -21,12 +21,17 @@ const responsive = {
 };
 
 const images = [
-  { url: "/Landing1.jpeg", alt: "alt1" },
-  { url: "/Landing2.jpg", alt: "alt2" },
-  { url: "/Landing3.jpg", alt: "alt3" },
-  { url: "/Landing1.jpeg", alt: "alt4" },
-  { url: "/Landing2.jpg", alt: "alt5" },
-  { url: "/Landing3.jpg", alt: "alt6" },
+  { url: "/Products/Boxes/PlywoodBoxCopy.jpg", alt: "Plywood Box" },
+  {
+    url: "/Products/Boxes/PlywoodBoxCustomised3.jpg",
+    alt: "Plywood Box Customised",
+  },
+  { url: "/Products/Crates/PlywoodCrate.jpg", alt: "Plywood Crate" },
+  {
+    url: "/Products/Boxes/PlywoodAndPinewoodBox.jpg",
+    alt: "Plywood and Pinewood Box",
+  },
+  { url: "/Products/Pallet/General/Pallet_2.jpg", alt: "Pallet" },
 ];
 
 const ProductCarousel = () => {
