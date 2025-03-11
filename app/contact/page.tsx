@@ -39,14 +39,14 @@ export default function Contact() {
             <p className="group-hover:underline">info@issawoodindutries.in </p>
           </a>
           <a
-            href="https://www.instagram.com/issa.wood"
+            href="https://www.instagram.com/issawoodindustries"
             target="_blank"
             rel="noopener noreferrer"
             referrerPolicy="no-referrer"
             className="group flex flex-row items-center gap-x-4 text-base"
           >
             <Instagram strokeWidth={1} size={24} />
-            <p className="group-hover:underline">@issa.wood</p>
+            <p className="group-hover:underline">@issawoodindustries</p>
           </a>
         </div>
         <ContactForm />
@@ -57,10 +57,10 @@ export default function Contact() {
             <p className="font-montesserat-bold text-2xl md:text-4xl text-white">
               Visit Us
             </p>
-            <p className="font-montesserat text-white text-sm">
+            <p className="font-montesserat text-white text-base">
               We’d love for you to drop by and have a chat!
             </p>
-            <p className="font-montesserat text-white text-sm">
+            <p className="font-montesserat text-white text-base">
               <b>Office Address: </b>No 864/2, Trimurthy Nilaya, Beside
               Nageswara temple, Behind BBMP office, Begur, Bengaluru - 560068
             </p>

@@ -1,5 +1,3 @@
-"use client";
-
 import CTAOne from "../components/ctaone";
 import Timeline from "../components/timeline";
 

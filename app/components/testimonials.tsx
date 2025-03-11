@@ -98,13 +98,13 @@ const Testimonials = () => {
             key={index}
             className="w-lg p-4 border rounded border-iorange bg-transparent"
           >
-            <p className="text-lg font-montesserat-bold text-black">
+            <p className="text-xl font-montesserat-bold text-black">
               {review.name}
             </p>
-            <b className="text-sm font-montesserat text-black">
+            <b className="text-base font-montesserat text-black">
               {review.title}
             </b>
-            <p className="text-sm font-montesserat text-[#0A1E3C]">
+            <p className="text-base font-montesserat text-[#0A1E3C]">
               {review.body}
             </p>
           </div>

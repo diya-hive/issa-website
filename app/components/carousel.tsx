@@ -36,7 +36,7 @@ const images = [
 
 const ProductCarousel = () => {
   return (
-    <div className="px-4 md:px-12 pb-4">
+    <div className="px-2 md:px-12 pb-4">
       <Carousel
         partialVisible={true}
         responsive={responsive}
@@ -53,7 +53,7 @@ const ProductCarousel = () => {
             <img
               src={image.url}
               alt={image.alt}
-              className="px-2 w-2xl h-96 rounded-2xl"
+              className="px-2 w-2xl h-72 md:h-96 rounded-2xl"
             />
           </div>
         ))}
