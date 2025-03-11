@@ -41,8 +41,14 @@ function Gallery() {
       label: "Jungle Wood Crate",
       path: "/Products/Crates/JungleWoodCrate.jpg",
     },
-    { label: "Pine Wood Crate", path: "/Products/Crates/PineWoodCrate.jpg" },
-    { label: "Plywood Crate", path: "/Products/Crates/PlyWoodCrate.jpg" },
+    {
+      label: "Pine Wood Crate",
+      path: "/Products/Crates/PinewoodCrate.jpg",
+    },
+    {
+      label: "Plywood Crate",
+      path: "/Products/Crates/PlywoodCrate.jpg",
+    },
     {
       label: "Pallet",
       path: "/Products/Pallet/General/Pallet_2.jpg",
