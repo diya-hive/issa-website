@@ -6,11 +6,13 @@ import { mergeOpenGraph } from "./mergeOpenGraph";
 export const generateMeta = async ({
   title,
   description,
+  keywords,
   ogImageLink,
   robots,
 }: {
   title?: string;
   description?: string;
+  keywords?: string;
   ogImageLink?: string;
   robots?: Robots;
 }): Promise<Metadata> => {
@@ -21,6 +23,7 @@ export const generateMeta = async ({
   return {
     title: title,
     description: description,
+    keywords: keywords,
     robots: robots,
     openGraph: mergeOpenGraph({
       title: title,

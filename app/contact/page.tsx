@@ -68,8 +68,8 @@ export default function Contact() {
         <ContactForm />
       </div>
       <div className="flex flex-col md:flex-row h-[50vh] w-screen pb-8">
-        <div className="flex items-center justify-center w-screen md:w-1/2 h-1/3 md:h-full">
-          <div className="flex flex-col gap-2 justify-center h-full md:h-3/4 w-full bg-iorange p-8 md:p-4">
+        <div className="flex items-center justify-center w-screen md:w-1/2 h-[40%] md:h-full">
+          <div className="flex flex-col gap-2 justify-center h-full md:h-3/4 w-full bg-iorange p-4">
             <p className="font-montesserat-bold text-xl md:text-4xl text-white">
               Visit Us
             </p>
@@ -82,7 +82,7 @@ export default function Contact() {
             </p>
           </div>
         </div>
-        <div className="w-screen md:w-1/2 h-2/3 md:h-full">
+        <div className="w-screen md:w-1/2 h-[60%] md:h-full">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.937325043513!2d77.62656587458687!3d12.782580218995214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6960cacbfb1b%3A0x1090e9a612f16c9a!2sRaja%20Spools!5e0!3m2!1sen!2sin!4v1741616930284!5m2!1sen!2sin"
             loading="lazy"

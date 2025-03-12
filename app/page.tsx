@@ -8,7 +8,10 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      <section className="flex w-screen h-screen bg-[url('/LandingHero.png')] bg-cover p-4">
+      <section
+        className="flex w-screen h-screen bg-[url('/LandingHero.png')] bg-cover p-4"
+        role="banner"
+      >
         <div className="flex flex-col w-full h-full items-start mt-8 md:mt-16 md:ml-16 gap-4 p-4">
           <h1 className="md:max-w-xl lg:max-w-2xl text-3xl md:text-3xl lg:text-5xl font-bold font-montesserat-bold text-iblue z-10">
             Craftsmanship You Can Trust, Excellence You Can See
@@ -101,9 +104,9 @@ export default function Home() {
         </div>
       </section>
       <section className="w-screen bg-iblue flex flex-col gap-8 p-4 md:p-12 pt-20 pb-20">
-        <p className="font-montesserat-bold text-white text-4xl md:text-5xl text-center">
+        <h2 className="font-montesserat-bold text-white text-4xl md:text-5xl text-center">
           OUR PRODUCTS
-        </p>
+        </h2>
         <ProductCarousel />
         <Link
           href="/gallery"
@@ -113,9 +116,9 @@ export default function Home() {
         </Link>
       </section>
       <section className="w-screen flex flex-col bg-white bg-[url('/BgIssa.jpg')] bg-contain bg-no-repeat bg-right">
-        <p className="font-montesserat-bold text-4xl md:text-5xl text-iblue p-4 md:p-12 pt-20 text-center">
+        <h2 className="font-montesserat-bold text-4xl md:text-5xl text-iblue p-4 md:p-12 pt-20 text-center">
           HEAR FROM OUR CLIENTS
-        </p>
+        </h2>
         <Testimonials />
         <Logos />
       </section>

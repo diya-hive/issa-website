@@ -5,9 +5,11 @@ import { Metadata } from "next";
 import { generateMeta } from "@/lib/generateMeta";
 
 export const metadata: Metadata = await generateMeta({
-  title: "About Us",
+  title: "About Us | Issa Wood Industries",
   description:
     "Learn more about Issa Wood Industries, a leader in crafting durable wooden crates, pallets, and custom packaging solutions. Discover our commitment to quality, innovation, and customer satisfaction, and understand the processes dedicated to providing reliable and export-compliant packaging.",
+  keywords:
+    "wooden crates, pallets, custom packaging, ISPM-15 certified, sustainable packaging solutions, eco-friendly packaging",
 });
 
 export default function About() {
@@ -23,20 +25,23 @@ export default function About() {
               To be the most trusted and innovative provider of high-quality,
               sustainable packaging solutions, delivering excellence through
               precision, reliability, and customer-focused service. <br />
-              <br /> At Issa Wood Industries, we envision a future where
-              packaging not only protects products but also preserves the planet
-              - through cutting-edge technology, responsible sourcing, and a
-              commitment to global standards.
+              <br />
+              At Issa Wood Industries, we envision a future where packaging not
+              only protects products but also preserves the planet through
+              cutting-edge technology, responsible sourcing, and a commitment to
+              global standards.
             </p>
           </div>
           <div className="flex items-center w-full md:w-[40%] h-[10vh] md:h-screen">
             <img
               src="/Products/Pallet/General/Pallet_3.jpg"
               className="object-cover w-full h-full opacity-80"
+              alt="Durable wooden pallet in a factory setting"
             />
           </div>
         </div>
       </section>
+
       <section>
         <div className="flex flex-col w-screen justify-center items-center font-montesserat">
           <h2 className="font-montesserat-bold text-4xl md:text-5xl text-iblue p-6 md:p-12 md:pt-20 text-center">
@@ -45,6 +50,7 @@ export default function About() {
           <Timeline />
         </div>
       </section>
+
       <section className="flex flex-col gap-8 p-8 md:p-16 pb-0 items-center">
         <p className="font-montesserat-bold text-4xl text-iblue text-center">
           ISPM-15 CERTIFIED FHAT
@@ -58,8 +64,9 @@ export default function About() {
               system uses controlled hot air circulation to eliminate pests,
               larvae, and fungi, raising the wood’s core temperature to 56°C for
               at least 30 minutes, as required by ISPM-15 regulations. Each
-              treated unit is stamped and certified for seamless global export.
-              <br /> <br />
+              treated unit is stamped and certified for seamless global export.{" "}
+              <br />
+              <br />
               Unlike chemical fumigation, our FHAT process is eco-friendly and
               non-toxic, aligning with our commitment to sustainability and
               responsible sourcing. With this advanced in-house treatment, we
@@ -68,10 +75,15 @@ export default function About() {
             </p>
           </div>
           <div className="w-full md:w-1/3">
-            <img src="/Certificate.jpg" className="object-contain" />
+            <img
+              src="/Certificate.jpg"
+              className="object-contain"
+              alt="ISPM-15 Certification"
+            />
           </div>
         </div>
       </section>
+
       <CTAOne />
     </>
   );
