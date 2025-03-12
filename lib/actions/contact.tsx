@@ -19,8 +19,8 @@ export async function SaveSubmission({
   const notificationEmailToTeam: MailDataRequired = {
     to: process.env.CONTACT_FORM_RECEIVER,
     from: process.env.CONTACT_FORM_SENDER ?? "",
-    subject: "Wellfed Contact Form Submission",
-    html: `Hi,<br /><br />A new enquiry has been submitted on the Wellfed website.<br /><br />
+    subject: "Contact Form Submission",
+    html: `Hi,<br /><br />A new enquiry has been submitted on the Issa Wood Industries website.<br /><br />
         <strong>Name:</strong> ${firstName + " " + lastName} 
         <br /><strong>Email:</strong> ${emailAddress} 
         <br /><strong>Phone:</strong> ${phoneNumber} 
