@@ -1,3 +1,4 @@
+import Image from "next/image";
 import CTAOne from "../components/ctaone";
 import Timeline from "../components/timeline";
 
@@ -34,6 +35,33 @@ export default function About() {
             OUR JOURNEY
           </h2>
           <Timeline />
+        </div>
+      </section>
+      <section className="flex flex-col gap-8 p-8 md:p-16 pb-0">
+        <p className="font-montesserat-bold text-4xl text-iblue text-center">
+          ISPM-15 CERTIFIED FHAT
+        </p>
+        <div className="flex flex-col md:flex-row">
+          <div className="w-full md:w-2/3">
+            <p className="font-montesserat text-base text-center md:text-left">
+              Our manufacturing facility features an in-house ISPM-15 Certified
+              FHAT (Forced Hot Air Treatment) plant, ensuring compliance with
+              International Plant Protection Convention (IPPC) standards. This
+              system uses controlled hot air circulation to eliminate pests,
+              larvae, and fungi, raising the wood’s core temperature to 56°C for
+              at least 30 minutes, as required by ISPM-15 regulations. Each
+              treated unit is stamped and certified for seamless global export.
+              <br /> <br />
+              Unlike chemical fumigation, our FHAT process is eco-friendly and
+              non-toxic, aligning with our commitment to sustainability and
+              responsible sourcing. With this advanced in-house treatment, we
+              guarantee high-quality, pest-free, and globally compliant wood
+              packaging for secure international shipping.
+            </p>
+          </div>
+          <div className="w-full md:w-1/3">
+            <img src="/Certificate.jpg" className="object-contain" />
+          </div>
         </div>
       </section>
       <CTAOne />
