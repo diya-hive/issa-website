@@ -69,7 +69,7 @@ export default function Contact() {
       </div>
       <div className="flex flex-col md:flex-row h-[50vh] w-screen pb-8">
         <div className="flex items-center justify-center w-screen md:w-1/2 h-[40%] md:h-full">
-          <div className="flex flex-col gap-2 justify-center h-full md:h-3/4 w-full bg-iorange p-4">
+          <div className="flex flex-col gap-2 justify-center h-full md:h-3/4 w-full bg-iorange p-4 lg:p-12">
             <p className="font-montesserat-bold text-xl md:text-4xl text-white">
               Visit Us
             </p>
