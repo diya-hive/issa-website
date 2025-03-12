@@ -16,12 +16,12 @@ export default function About() {
   return (
     <>
       <section className="bg-radial-[at_25%_25%] from-[#1A52A2] to-iblue to-75% z-0">
-        <div className="flex flex-col md:flex-row z-10">
-          <div className="flex flex-col gap-8 w-full md:w-[60%] items-center md:justify-center text-white p-8 md:p-0">
+        <div className="flex flex-col lg:flex-row z-10">
+          <div className="flex flex-col gap-8 w-full lg:w-[60%] items-center lg:justify-center text-white p-8 md:p-8 lg:p-0">
             <h1 className="font-montesserat-bold text-4xl lg:text-5xl">
               OUR VISION
             </h1>
-            <p className="max-w-xl text-base lg:text-lg font-montesserat text-center md:text-left">
+            <p className="max-w-xl text-base lg:text-lg font-montesserat text-center md:text-left text-pretty">
               To be the most trusted and innovative provider of high-quality,
               sustainable packaging solutions, delivering excellence through
               precision, reliability, and customer-focused service. <br />
@@ -32,10 +32,10 @@ export default function About() {
               global standards.
             </p>
           </div>
-          <div className="flex items-center w-full md:w-[40%] h-[10vh] md:h-screen">
+          <div className="flex items-center w-full lg:w-[40%] h-[10vh] lg:h-screen">
             <img
-              src="/Products/Pallet/General/Pallet_3.jpg"
-              className="object-cover w-full h-full opacity-80"
+              src="/AboutHero.png"
+              className="object-top object-cover w-full h-full opacity-80"
               alt="Durable wooden pallet in a factory setting"
             />
           </div>
