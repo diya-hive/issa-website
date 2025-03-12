@@ -7,7 +7,7 @@ import Footer from "./components/footer";
 export const metadata: Metadata = {
   title: "Issa Wood Industries | Precision Woodcraft & Spools Manufacturing",
   description:
-    "With 35 years of expertise, Issa Wood Industries (formerly Raja Spools) delivers high-quality wooden spools, bobbins, and precision woodcraft solutions. Trusted by leading industries worldwide.",
+    "With 35 years of expertise, Issa Wood Industries delivers high-quality wooden spools, bobbins, and precision woodcraft solutions. Trusted by leading industries across the country.",
 };
 
 export default function RootLayout({

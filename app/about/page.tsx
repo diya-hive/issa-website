@@ -1,6 +1,14 @@
 import Image from "next/image";
 import CTAOne from "../components/ctaone";
 import Timeline from "../components/timeline";
+import { Metadata } from "next";
+import { generateMeta } from "@/lib/generateMeta";
+
+export const metadata: Metadata = await generateMeta({
+  title: "About Us",
+  description:
+    "Learn more about Issa Wood Industries, a leader in crafting durable wooden crates, pallets, and custom packaging solutions. Discover our commitment to quality, innovation, and customer satisfaction, and understand the processes dedicated to providing reliable and export-compliant packaging.",
+});
 
 export default function About() {
   return (
@@ -37,11 +45,11 @@ export default function About() {
           <Timeline />
         </div>
       </section>
-      <section className="flex flex-col gap-8 p-8 md:p-16 pb-0">
+      <section className="flex flex-col gap-8 p-8 md:p-16 pb-0 items-center">
         <p className="font-montesserat-bold text-4xl text-iblue text-center">
           ISPM-15 CERTIFIED FHAT
         </p>
-        <div className="flex flex-col md:flex-row">
+        <div className="w-full flex flex-col md:flex-row max-w-7xl">
           <div className="w-full md:w-2/3">
             <p className="font-montesserat text-base text-center md:text-left">
               Our manufacturing facility features an in-house ISPM-15 Certified

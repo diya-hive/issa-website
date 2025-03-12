@@ -4,6 +4,13 @@ import { Phone } from "lucide-react";
 import { Mail } from "lucide-react";
 
 import ContactForm from "./form";
+import { generateMeta } from "@/lib/generateMeta";
+
+export const metadata: Metadata = await generateMeta({
+  title: "Contact Us",
+  description:
+    "Have questions about our services? We're here to help! Contact us for support, inquiries, or feedback. Reach out today!",
+});
 
 export default function Contact() {
   return (

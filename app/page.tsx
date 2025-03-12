@@ -33,7 +33,7 @@ export default function Home() {
         </div>
       </section>
       <section className="flex flex-col bg-white p-12 items-center">
-        <div className="flex flex-col w-full md:max-w-7xl lg:flex-row items-center md:gap-16 h-2/3">
+        <div className="flex flex-col w-full md:max-w-7xl lg:flex-row items-center gap-4 md:gap-16 h-2/3 pb-12 md:pb-20">
           <div className="w-full lg:w-1/2">
             <FeaturesGrid />
           </div>
