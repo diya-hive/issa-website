@@ -13,7 +13,7 @@ const CTAOne = () => {
       </p>
       <Link
         href="#"
-        className="bg-amber-600 px-4 md:px-8 py-1 md:py-2 rounded text-white font-montesserat-bold text-base"
+        className="bg-amber-600 px-4 md:px-8 py-1 md:py-2 rounded text-white font-montesserat-bold text-base hover:opacity-80 duration-300"
       >
         Get In Touch!
       </Link>

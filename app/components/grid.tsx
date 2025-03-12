@@ -11,7 +11,7 @@ import {
 } from "lucide-react";
 export default function FeaturesGrid() {
   return (
-    <section className="w-full flex items-center justify-center bg-transparent p-8">
+    <section className="w-full flex items-center justify-center bg-transparent">
       <div className="w-full grid grid-cols-2 gap-4 md:grid-cols-3">
         {features.map((feature, index) => (
           <div

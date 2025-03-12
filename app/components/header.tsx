@@ -5,7 +5,7 @@ import { Menu } from "lucide-react";
 
 const Header = () => {
   return (
-    <header className="sticky top-0 h-14 w-full bg-gray-200 shadow-md font-montesserat-bold text-xs md:text-base z-50">
+    <header className="sticky top-0 h-16 w-full bg-gray-200 shadow-md font-montesserat-bold text-xs md:text-base z-50">
       <div className="flex h-full items-center justify-between px-4 md:px-12 text-[#0A1E3C]">
         <a href="/">
           <img
@@ -18,11 +18,12 @@ const Header = () => {
         <nav className="hidden md:flex items-center gap-6">
           <Link href="/about">About Us</Link>
           <Link href="/gallery">Media</Link>
-          <Link href="/blog">Blog</Link>
-          <Link href="/contact">
-            <button className="bg-amber-600 p-2 rounded text-white text-base">
-              Contact Us
-            </button>
+          {/* <Link href="/blog">Blog</Link> */}
+          <Link
+            href="/contact"
+            className="bg-amber-600 p-2 rounded text-white text-base hover:opacity-80 duration-300"
+          >
+            Contact Us
           </Link>
         </nav>
 
@@ -42,7 +43,7 @@ const Header = () => {
                 </a>
                 <Link href="/about">About Us</Link>
                 <Link href="/gallery">Media</Link>
-                <Link href="/blog">Blog</Link>
+                {/* <Link href="/blog">Blog</Link> */}
                 <Link href="/contact">
                   <button className="bg-amber-600 p-2 rounded text-white text-sm w-64">
                     Contact Us

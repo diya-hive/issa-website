@@ -19,25 +19,25 @@ export default function Home() {
           <div className="w-full flex flex-col md:flex-row gap-4">
             <Link
               href="/gallery"
-              className="bg-iorange rounded text-white font-montesserat-bold w-full md:w-64 text-center py-2 hover:opacity-90"
+              className="bg-iorange rounded text-white font-montesserat-bold w-full md:w-64 text-center py-2 hover:opacity-90 duration-300"
             >
               Explore Our Products
             </Link>
             <Link
               href="/contact"
-              className="bg-transparent border-iblue border-1 rounded text-iblue font-montesserat-bold w-full md:w-64 text-center py-2  hover:bg-blue-100 hover:text-iblue"
+              className="bg-transparent border-iblue border-1 rounded text-iblue font-montesserat-bold w-full md:w-64 text-center py-2  hover:bg-blue-100 hover:text-iblue duration-300"
             >
               Contact Us
             </Link>
           </div>
         </div>
       </section>
-      <section className="flex flex-col bg-white p-12">
-        <div className="flex flex-col lg:flex-row items-center md:gap-4 h-2/3 w-full">
-          <div className="w-screen md:w-1/2">
+      <section className="flex flex-col bg-white p-12 items-center">
+        <div className="flex flex-col w-full md:max-w-7xl lg:flex-row items-center md:gap-16 h-2/3">
+          <div className="w-full lg:w-1/2">
             <FeaturesGrid />
           </div>
-          <div className="w-screen md:w-1/2">
+          <div className="w-full lg:w-1/2">
             <p className="font-montesserat text-base md:text-xl text-iblue p-4 md:p-2 text-center md:text-left">
               Issa Wood Industries specializes in manufacturing high-quality,
               durable, and export-compliant wooden crates, pallets, and custom
@@ -50,7 +50,8 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="flex container flex-col md:flex-row w-full h-1/3 gap-6 md:gap-16 items-center justify-center text-iblue p-4 md:p-8">
+
+        <div className="flex flex-col md:flex-row max-w-7xl h-1/3 gap-6 items-center justify-center text-iblue p-4 md:p-8">
           <div className="flex flex-col items-center font-montesserat-bold text-6xl lg:text-7xl">
             <CountUp
               start={0}
@@ -66,7 +67,7 @@ export default function Home() {
               Years Of Experience
             </p>
           </div>
-          <div className="flex flex-col items-center font-montesserat-bold text-6xl lg:text-7xl">
+          <div className="flex flex-col w-full items-center font-montesserat-bold text-6xl lg:text-7xl">
             <CountUp
               start={0}
               end={36000}
@@ -77,8 +78,9 @@ export default function Home() {
             >
               {({ countUpRef }) => <span ref={countUpRef} />}
             </CountUp>
-            <p className="text-iblue font-montesserat text-xs md:text-xl">
-              Annual Production Capacity
+            <p className="text-iblue font-montesserat text-center text-xs md:text-xl">
+              Annual Production <br />
+              Capacity
             </p>
           </div>
           <div className="flex flex-col items-center font-montesserat-bold text-6xl lg:text-7xl">
@@ -92,7 +94,7 @@ export default function Home() {
             >
               {({ countUpRef }) => <span ref={countUpRef} />}
             </CountUp>
-            <p className="text-iblue font-montesserat text-xs md:text-xl">
+            <p className="text-iblue font-montesserat text-xs text-center md:text-xl">
               Industries Served
             </p>
           </div>
@@ -105,7 +107,7 @@ export default function Home() {
         <ProductCarousel />
         <Link
           href="/gallery"
-          className="border-1 w-64 py-2 rounded self-center text-white font-montesserat text-center hover:bg-gray-500"
+          className="border-1 w-64 py-2 rounded self-center text-white font-montesserat text-center hover:bg-gray-500 duration-300"
         >
           Explore
         </Link>

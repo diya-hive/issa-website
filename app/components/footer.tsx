@@ -24,7 +24,7 @@ const Footer = () => {
           </p>
           <Link href="/about">About Us</Link>
           <Link href="/gallery">Media</Link>
-          <Link href="/blog">Blog</Link>
+          {/* <Link href="/blog">Blog</Link> */}
           <Link href="/contact">Contact Us</Link>
         </div>
         <div className="flex flex-col items-center font-sm font-montesserat text-base md:text-sm justify-evenly">
