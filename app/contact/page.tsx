@@ -7,8 +7,8 @@ import ContactForm from "./form";
 
 export default function Contact() {
   return (
-    <main className="flex flex-col">
-      <div className="container flex min-h-[calc(100vh-80px)] flex-col items-center justify-between gap-8 overflow-hidden bg-alabaster p-8 md:flex-row md:py-0 ">
+    <main className="flex flex-col w-full items-center">
+      <div className="flex min-h-[calc(100vh-80px)] flex-col items-center justify-between gap-8 overflow-hidden bg-alabaster p-8 md:flex-row md:py-0 ">
         <div className="flex w-full shrink-0 flex-col gap-2 md:w-2/5 md:gap-4 font-montesserat">
           <h1 className="font-montesserat-bold text-4xl text-iblue md:text-5xl">
             Get In Touch
@@ -17,16 +17,25 @@ export default function Contact() {
             Need to get in touch with us? Either fill out the form with your
             inquiry or reach out to us by email or phone.
           </p>
-
           <a
-            href="tel:+919035511921"
+            href="tel:+919845033970"
             target="_blank"
             rel="noopener noreferrer"
             referrerPolicy="no-referrer"
             className="group mt-6 flex flex-row items-center gap-x-4 text-base"
           >
             <Phone strokeWidth={1} size={24} />
-            <p className="group-hover:underline"> +91 90355 11921</p>
+            <p className="group-hover:underline"> +91 9845033970</p>
+          </a>
+          <a
+            href="tel:+919620588480"
+            target="_blank"
+            rel="noopener noreferrer"
+            referrerPolicy="no-referrer"
+            className="group flex flex-row items-center gap-x-4 text-base"
+          >
+            <Phone strokeWidth={1} size={24} />
+            <p className="group-hover:underline"> +91 9620588480</p>
           </a>
           <a
             href="mailto:info@issawoodindutries.in"
@@ -51,7 +60,7 @@ export default function Contact() {
         </div>
         <ContactForm />
       </div>
-      <div className="flex flex-col md:flex-row h-[50vh] w-screen">
+      <div className="flex flex-col md:flex-row h-[50vh] w-screen pb-8">
         <div className="flex items-center justify-center w-screen md:w-1/2 h-1/3 md:h-full">
           <div className="flex flex-col gap-2 justify-center h-full md:h-3/4 w-full bg-iorange p-8 md:p-4">
             <p className="font-montesserat-bold text-xl md:text-4xl text-white">
