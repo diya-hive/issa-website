@@ -54,13 +54,13 @@ export default function Contact() {
       <div className="flex flex-col md:flex-row h-[50vh] w-screen">
         <div className="flex items-center justify-center w-screen md:w-1/2 h-1/3 md:h-full">
           <div className="flex flex-col gap-2 justify-center h-full md:h-3/4 w-full bg-iorange p-8 md:p-4">
-            <p className="font-montesserat-bold text-2xl md:text-4xl text-white">
+            <p className="font-montesserat-bold text-xl md:text-4xl text-white">
               Visit Us
             </p>
-            <p className="font-montesserat text-white text-base">
+            <p className="font-montesserat text-white text-sm md:text-base">
               We’d love for you to drop by and have a chat!
             </p>
-            <p className="font-montesserat text-white text-base">
+            <p className="font-montesserat text-white text-sm md:text-base">
               <b>Office Address: </b>No 864/2, Trimurthy Nilaya, Beside
               Nageswara temple, Behind BBMP office, Begur, Bengaluru - 560068
             </p>
