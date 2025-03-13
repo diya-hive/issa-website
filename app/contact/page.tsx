@@ -7,7 +7,7 @@ import ContactForm from "./form";
 import { generateMeta } from "@/lib/generateMeta";
 
 export const metadata: Metadata = await generateMeta({
-  title: "Contact Us",
+  title: "Contact Us | Issa Wood Industries",
   description:
     "Have questions about our services? We're here to help! Contact us for support, inquiries, or feedback. Reach out today!",
 });
@@ -77,8 +77,8 @@ export default function Contact() {
               We'd love for you to drop by and have a chat!
             </p>
             <p className="font-montesserat text-white text-sm md:text-base">
-              <b>Office Address: </b>No 864/2, Trimurthy Nilaya, Beside
-              Nageswara temple, Behind BBMP office, Begur, Bengaluru - 560068
+              <b>Office Address: </b>Sy No. 519/3, 519/4, Plot No. 8(P) 1-A,
+              KIADB Industrial Area, Jigani, Anekal Taluk, Bengaluru - 560105
             </p>
           </div>
         </div>
