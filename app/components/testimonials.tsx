@@ -5,28 +5,28 @@ const reviews = [
   {
     name: "Bhimashankar S Marath",
     title:
-      "Assistant Manager (Purchase) - Unimech Aerospace & Manufacturing Ltd",
+      "Assistant Manager (Purchase), Unimech Aerospace & Manufacturing Ltd",
     body: "Issa Wood Industries excels in both quality and delivery. Their products are top-notch, and their service is very reliable. I would 100% recommend Issa Wood Industries.",
   },
   {
     name: "Madhusudhan N",
-    title: "Distribution Warehouse (Merch) - Sigma Aldrich Chemicals Pvt Ltd",
+    title: "Distribution Warehouse, Merck - Sigma Aldrich Chemicals Pvt. Ltd",
     body: "We have been business partners since 2018, and we source their Pine Wood Pallets. The responsiveness to our urgent requirements, queries and calls have been very efficient. The product quality and delivery performance is excellent. I definitely recommend Issa Wood Industries",
   },
   {
     name: "Shiji Shreedhar",
-    title: "Manager (Operations) - Fabritech Engineering",
+    title: "Manager (Operations), Fabritech Engineering",
     body: "Issa Wood Industries provides outstanding customised pallets for our needs. They are quick and efficient with their service. It is an enjoyable experience to work with such a reliable and professional team. Overall, excellent quality and timely delivery!",
   },
   {
     name: "Lourdu Swamy",
-    title: "Deputy Manager (Procurement) - CIE Automotive India Limited",
-    body: "All products are of good quality and the service is excellent in terms of delivery and communication. I definitely recommend Issa Wood Industries as a reliable business partner.",
+    title: "Deputy Manager (Procurement), CIE Automotive India Limited",
+    body: "All products are of good quality and the service is excellent in terms of delivery and communication. I definitely recommend Issa Wood Industries as a reliable business partner.",
   },
   {
     name: "Manjunath P",
-    title: "Supply Chain Management - Tata Advanced Systems Limited ",
-    body: "As a repeated customer, I can confidently say that Issa Wood Industries consistently delivers excellent products and services. The team is always friendly and helpful, and their products are top-notch. I've already recommended them to many others, and I will continue to do so!",
+    title: "Supply Chain Management, Tata Advanced Systems Limited",
+    body: "As a repeated customer, I can confidently say that Issa Wood Industries consistently delivers excellent products and services. The team is always friendly and helpful, and their products are top-notch. I've already recommended them to many others, and I will continue to do so!",
   },
 ];
 

@@ -62,9 +62,9 @@ export default function About() {
               FHAT (Forced Hot Air Treatment) plant, ensuring compliance with
               International Plant Protection Convention (IPPC) standards. This
               system uses controlled hot air circulation to eliminate pests,
-              larvae, and fungi, raising the wood’s core temperature to 56°C for
+              larvae, and fungi, raising the wood's core temperature to 56°C for
               at least 30 minutes, as required by ISPM-15 regulations. Each
-              treated unit is stamped and certified for seamless global export.{" "}
+              treated unit is stamped and certified for seamless global export.
               <br />
               <br />
               Unlike chemical fumigation, our FHAT process is eco-friendly and
@@ -83,7 +83,6 @@ export default function About() {
           </div>
         </div>
       </section>
-
       <CTAOne />
     </>
   );

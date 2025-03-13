@@ -7,26 +7,35 @@ function Gallery() {
   const [slide, setSlide] = useState(1);
 
   const images = [
-    { label: "Custom Packaging", path: "/Products/Boxes/CustPacking.jpg" },
-    { label: "General Dump Box", path: "/Products/Boxes/GeneralDump.jpg" },
+    {
+      label: "Customised Packaging with Foam Wrap",
+      path: "/Products/Boxes/CustPacking.jpg",
+    },
+    { label: "Plywood Boxes", path: "/Products/Boxes/GeneralDump.jpg" },
     {
       label: "Plywood and Pinewood Box",
       path: "/Products/Boxes/PlywoodAndPinewoodBox.jpg",
     },
     { label: "Plywood Box", path: "/Products/Boxes/PlywoodBox.jpg" },
-    { label: "Plywood Box 1", path: "/Products/Boxes/PlywoodBox1.jpg" },
-    { label: "Plywood Box 2", path: "/Products/Boxes/PlywoodBox2.jpg" },
-    { label: "Plywood Box Copy", path: "/Products/Boxes/PlywoodBoxCopy.jpg" },
+    {
+      label: "Plywood Box with Pinewood Reapers",
+      path: "/Products/Boxes/PlywoodBox1.jpg",
+    },
+    {
+      label: "Export Quality Plywood Box",
+      path: "/Products/Boxes/PlywoodBox2.jpg",
+    },
+    { label: "Plywood Box", path: "/Products/Boxes/PlywoodBoxCopy.jpg" },
     {
       label: "Plywood Box with Air Cushioning Bottom",
       path: "/Products/Boxes/PlywoodBoxAirCushioningBottom.jpg",
     },
     {
-      label: "Plywood Box Customised 3",
+      label: "Plywood Box with Internal Foam and Protective Adhesive Tape ",
       path: "/Products/Boxes/PlywoodBoxCustomised3.jpg",
     },
     {
-      label: "Plywood Box Detailed Packaging 4",
+      label: "Plywood Box with Product Film Protection ",
       path: "/Products/Boxes/PlywoodBoxDetailedPacking4.jpg",
     },
     {
@@ -34,7 +43,7 @@ function Gallery() {
       path: "/Products/Boxes/PlywoodBoxWithInternalMultilevelCardboardPartitions.jpg",
     },
     {
-      label: "Plywood Customised Packing 6",
+      label: "6M Plywood Box with Internal Foam Packing",
       path: "/Products/Boxes/PlywoodCustomisedPacking6.jpg",
     },
     {

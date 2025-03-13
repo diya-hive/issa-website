@@ -74,7 +74,7 @@ export default function Contact() {
               Visit Us
             </p>
             <p className="font-montesserat text-white text-sm md:text-base">
-              We’d love for you to drop by and have a chat!
+              We'd love for you to drop by and have a chat!
             </p>
             <p className="font-montesserat text-white text-sm md:text-base">
               <b>Office Address: </b>No 864/2, Trimurthy Nilaya, Beside
