@@ -21,7 +21,7 @@ export default function Home() {
           </p>
           <div className="w-full flex flex-col md:flex-row gap-4">
             <Link
-              href="/gallery"
+              href="/products"
               className="bg-iorange rounded text-white font-montesserat-bold w-full md:w-64 text-center py-2 hover:opacity-90 duration-300"
             >
               Explore Our Products
@@ -109,7 +109,7 @@ export default function Home() {
         </h2>
         <ProductCarousel />
         <Link
-          href="/gallery"
+          href="/products"
           className="border-1 w-64 py-2 rounded self-center text-white font-montesserat text-center hover:bg-gray-500 duration-300"
         >
           Explore

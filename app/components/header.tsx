@@ -17,7 +17,7 @@ const Header = () => {
 
         <nav className="hidden md:flex items-center gap-6">
           <Link href="/about">About Us</Link>
-          <Link href="/gallery">Media</Link>
+          <Link href="/products">Products</Link>
           {/* <Link href="/blog">Blog</Link> */}
           <Link
             href="/contact"
@@ -42,7 +42,7 @@ const Header = () => {
                   />
                 </a>
                 <Link href="/about">About Us</Link>
-                <Link href="/gallery">Media</Link>
+                <Link href="/products">Products</Link>
                 {/* <Link href="/blog">Blog</Link> */}
                 <Link href="/contact">
                   <button className="bg-amber-600 p-2 rounded text-white text-sm w-64">

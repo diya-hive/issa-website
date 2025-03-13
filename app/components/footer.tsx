@@ -23,7 +23,7 @@ const Footer = () => {
             Quick Links
           </p>
           <Link href="/about">About Us</Link>
-          <Link href="/gallery">Media</Link>
+          <Link href="/products">Products</Link>
           {/* <Link href="/blog">Blog</Link> */}
           <Link href="/contact">Contact Us</Link>
         </div>
