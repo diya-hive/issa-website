@@ -5,6 +5,7 @@ import Header from "./components/header";
 import Footer from "./components/footer";
 import { Toaster } from "sonner";
 import { mergeOpenGraph } from "@/lib/mergeOpenGraph";
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
   metadataBase: new URL(
@@ -26,6 +27,7 @@ export default function RootLayout({
       <body className={`antialiased`}>
         <Header />
         {children}
+        <Analytics />
         <Toaster richColors />
         <Footer />
       </body>
