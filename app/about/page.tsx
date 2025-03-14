@@ -15,10 +15,10 @@ export const metadata: Metadata = await generateMeta({
 export default function About() {
   return (
     <>
-      <section className="bg-radial-[at_25%_25%] from-[#1A52A2] to-iblue to-75% z-0">
-        <div className="flex flex-col lg:flex-row z-10">
-          <div className="flex flex-col gap-8 w-full lg:w-[60%] items-center lg:justify-center text-white p-8 md:p-8 lg:p-0">
-            <h1 className="font-montesserat-bold text-4xl lg:text-5xl">
+      <section className="w-full h-[70vh] md:h-screen bg-[url('/VisionImage.jpg')] bg-cover z-0">
+        <div className="w-full h-full items-end justify-center text-white flex flex-col bg-iblue/65 md:bg-transparent md:bg-linear-to-r md:from-transparent md:via-iblue/75 md:to-iblue">
+          <div className="p-8 gap-2">
+            <h1 className="font-montesserat-bold text-4xl lg:text-5xl pb-4 text-center md:text-left">
               OUR VISION
             </h1>
             <p className="max-w-xl text-base lg:text-lg font-montesserat text-center md:text-left text-pretty">
@@ -31,13 +31,6 @@ export default function About() {
               cutting-edge technology, responsible sourcing, and a commitment to
               global standards.
             </p>
-          </div>
-          <div className="flex items-center w-full lg:w-[40%] h-[10vh] lg:h-screen">
-            <img
-              src="/AboutHero.png"
-              className="object-top object-cover w-full h-full opacity-80"
-              alt="Durable wooden pallet in a factory setting"
-            />
           </div>
         </div>
       </section>

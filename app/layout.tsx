@@ -6,6 +6,7 @@ import Footer from "./components/footer";
 import { Toaster } from "sonner";
 import { mergeOpenGraph } from "@/lib/mergeOpenGraph";
 import { Analytics } from "@vercel/analytics/next";
+import FloatingButton from "./components/floatingbutton";
 
 export const metadata: Metadata = {
   metadataBase: new URL(
@@ -29,6 +30,7 @@ export default function RootLayout({
         {children}
         <Analytics />
         <Toaster richColors />
+        <FloatingButton />
         <Footer />
       </body>
     </html>
