@@ -54,16 +54,6 @@ export default function Contact() {
             <Mail strokeWidth={1} size={24} />
             <p className="group-hover:underline">info@issawoodindutries.in </p>
           </a>
-          <a
-            href="https://www.instagram.com/issawoodindustries"
-            target="_blank"
-            rel="noopener noreferrer"
-            referrerPolicy="no-referrer"
-            className="group flex flex-row items-center gap-x-4 text-base"
-          >
-            <Instagram strokeWidth={1} size={24} />
-            <p className="group-hover:underline">@issawoodindustries</p>
-          </a>
         </div>
         <ContactForm />
       </div>

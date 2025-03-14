@@ -10,7 +10,7 @@ import FloatingButton from "./components/floatingbutton";
 
 export const metadata: Metadata = {
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_URL ?? "https://www.issawoodindustries.in"
+    process.env.NEXT_PUBLIC_URL ?? "https://issawoodindustries.in"
   ),
   title: "Issa Wood Industries | Precision Woodcraft & Spools Manufacturing",
   description:
