@@ -16,10 +16,13 @@ export default function SustainabilityPage() {
   return (
     <div className="text-iblue">
       <div className="font-montesserat-bold text-5xl text-center p-4 md:p-16">
-        <div className="max-w-7xl mx-auto px-4">
+        <div className="flex flex-col max-w-7xl mx-auto px-4 gap-2">
           <h1 className="text-3xl md:text-4xl font-semibold text-pretty p-4 md:p-0">
             Sustainability in the Wooden Packaging Industry
           </h1>
+          <p className="text-gray-500 font-montesserat text-sm items-start">
+            Published On: 17th March, 2025
+          </p>
         </div>
       </div>
 
@@ -176,10 +179,10 @@ export default function SustainabilityPage() {
                 src="/Blog3.jpg"
                 fill
                 alt="Sustainable wooden pallets used in export"
-                className="object-contain"
+                className="object-cover"
               />
             </div>
-            <p className="italic font-montesserat text-gray-500 text-xs pt-2 md:pt-3">
+            <p className="italic font-montesserat text-gray-500 text-xs pt-1">
               Sustainable wooden pallets used in environmentally friendly
               packaging solutions
             </p>

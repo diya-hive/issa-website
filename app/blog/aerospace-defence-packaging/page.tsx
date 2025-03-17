@@ -16,10 +16,13 @@ export default function AerospaceDefensePackagingPage() {
   return (
     <div className="text-iblue">
       <div className="font-montesserat-bold text-5xl text-center p-4 md:p-16">
-        <div className="max-w-7xl mx-auto px-4">
+        <div className="flex flex-col max-w-7xl mx-auto px-4 gap-2">
           <h1 className="text-3xl md:text-4xl font-semibold text-pretty p-4 md:p-0">
             Wooden Packaging in Aerospace and Defense Industry
           </h1>
+          <p className="text-gray-500 font-montesserat text-sm items-start">
+            Published On: 17th March, 2025
+          </p>
         </div>
       </div>
 
