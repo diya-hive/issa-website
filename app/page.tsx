@@ -41,7 +41,7 @@ export default function Home() {
             <FeaturesGrid />
           </div>
           <div className="w-full lg:w-1/2">
-            <p className="font-montesserat text-base md:text-xl text-iblue text-center md:text-left text-pretty">
+            <p className="font-montesserat text-base md:text-xl text-iblue text-center md:text-left text-pretty pt-4 md:pt-0">
               Issa Wood Industries specializes in manufacturing high-quality,
               durable, and export-compliant wooden crates, pallets, and custom
               packaging to meet the needs of various industries. Our team
