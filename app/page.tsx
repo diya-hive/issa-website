@@ -9,17 +9,17 @@ export default function Home() {
   return (
     <>
       <section
-        className="flex w-screen h-screen bg-[url('/LandingHero.png')] bg-cover p-4"
+        className="flex w-screen h-[65vh] lg:h-screen bg-[url('/HeroNew.jpeg')] bg-bottom md:bg-center bg-cover p-4"
         role="banner"
       >
-        <div className="flex flex-col w-full h-full items-start mt-8 md:mt-16 md:ml-16 gap-4 p-4">
-          <h1 className="md:max-w-xl lg:max-w-2xl text-3xl md:text-3xl lg:text-5xl font-bold font-montesserat-bold text-iblue z-10">
+        <div className="flex flex-col w-full h-full items-center mt-8 md:mt-8 md:ml-16 gap-4 p-4">
+          <h1 className="md:max-w-xl lg:max-w-5xl text-2xl md:text-3xl lg:text-5xl font-montesserat-bold text-white text-center z-10">
             Craftsmanship You Can Trust, Excellence You Can See
           </h1>
-          <p className="font-montesserat text-iblue text-lg md:text-xl lg:text-2xl max md:max-w-xl z-10">
+          <p className="font-montesserat text-white text-center text-base md:text-xl lg:text-2xl max md:max-w-3xl z-10">
             Issa Wood Industries - 35 Years of Unmatched Experience & Precision.
           </p>
-          <div className="w-full flex flex-col md:flex-row gap-4">
+          <div className="w-full flex flex-col md:flex-row gap-4 justify-center">
             <Link
               href="/products"
               className="bg-iorange rounded text-white font-montesserat-bold w-full md:w-64 text-center py-2 hover:opacity-90 duration-300"
@@ -28,7 +28,7 @@ export default function Home() {
             </Link>
             <Link
               href="/contact"
-              className="bg-transparent border-iblue border-1 rounded text-iblue font-montesserat-bold w-full md:w-64 text-center py-2  hover:bg-blue-100 hover:text-iblue duration-300"
+              className="bg-white/85 border-white border-1 rounded text-iblue font-montesserat-bold w-full md:w-64 text-center py-2  hover:bg-white/70 hover:text-iblue duration-300"
             >
               Contact Us
             </Link>

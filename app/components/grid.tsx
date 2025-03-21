@@ -16,7 +16,7 @@ export default function FeaturesGrid() {
         {features.map((feature, index) => (
           <div
             key={index}
-            className="flex flex-col gap-2 items-center justify-center bg-transparent p-2 md:p-6 border border-amber-600 rounded-xl shadow-md hover:shadow-2xl"
+            className="flex flex-col gap-2 items-center justify-center bg-transparent p-2 md:p-6 border border-amber-600 rounded-xl shadow-md hover:shadow-2xl duration-300"
           >
             <div className="flex h-1/2 items-center justify-center">
               {feature.image}

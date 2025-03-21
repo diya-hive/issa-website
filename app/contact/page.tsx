@@ -74,11 +74,11 @@ export default function Contact() {
         </div>
         <div className="w-screen md:w-1/2 h-[60%] md:h-full">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.937325043513!2d77.62656587458687!3d12.782580218995214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6960cacbfb1b%3A0x1090e9a612f16c9a!2sRaja%20Spools!5e0!3m2!1sen!2sin!4v1741616930284!5m2!1sen!2sin"
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.935943032058!2d77.62654097484261!3d12.782669918992779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae690003b720e5%3A0x7011fd66beae3f61!2sISSA%20WOOD%20INDUSTRIES!5e0!3m2!1sen!2sin!4v1742538975616!5m2!1sen!2sin"
             width="100%"
             height="100%"
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
       </div>
