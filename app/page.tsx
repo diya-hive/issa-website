@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <section
-        className="flex w-screen h-[65vh] lg:h-screen bg-[url('/HeroNew.jpeg')] bg-bottom md:bg-center bg-cover p-4"
+        className="flex w-screen h-screen bg-[url('/HeroNew.jpeg')] bg-bottom md:bg-center bg-cover p-4"
         role="banner"
       >
         <div className="flex flex-col w-full h-full items-center mt-8 md:mt-8 md:ml-16 gap-4 p-4">
