@@ -41,14 +41,14 @@ export default function Home() {
             <FeaturesGrid />
           </div>
           <div className="w-full lg:w-1/2">
-            <p className="font-montesserat text-base md:text-xl text-iblue p-4 md:p-2 text-center md:text-left">
+            <p className="font-montesserat text-base md:text-xl text-iblue text-center md:text-left text-pretty">
               Issa Wood Industries specializes in manufacturing high-quality,
               durable, and export-compliant wooden crates, pallets, and custom
               packaging to meet the needs of various industries. Our team
               leverages the latest technology and industry best practices to
               ensure strong and secure packaging. We prioritize quality, timely
               delivery, and customer satisfaction. <br /> <br /> Your products
-              deserve the best—trust Issa Wood Industries for superior
+              deserve the best- trust Issa Wood Industries for superior
               packaging.
             </p>
           </div>
